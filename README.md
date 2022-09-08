@@ -2,7 +2,7 @@
 Realtime document sharing and editing web application for personal usage
 
 ## Demo
-(![realtime-doc](https://user-images.githubusercontent.com/78204805/189190724-e2eb00c9-36a7-44d5-b371-95c389274794.gif))
+![realtime-doc](https://user-images.githubusercontent.com/78204805/189190724-e2eb00c9-36a7-44d5-b371-95c389274794.gif)
 
 ## Features
 - Generates link to start document

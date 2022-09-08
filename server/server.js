@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 const Document = require("./Document")
 
-mongoose.connect("mongodb+srv://sanket3009:Sanket@8215@cluster0.4d2tbno.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("mongodb://localhost/realtime-document-collaboration", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,

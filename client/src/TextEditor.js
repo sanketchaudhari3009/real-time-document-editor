@@ -24,7 +24,7 @@ export default function TextEditor() {
     console.log(documentId);
 
     useEffect(() => {
-        const s = io("http://localhost:3001")
+        const s = io("https://realtime-document-collaborator.herokuapp.com")
         setSocket(s)
 
         return () => {

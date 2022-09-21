@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 const Document = require("./Document")
-
+//server
 mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -10,9 +10,9 @@ mongoose.connect(process.env.MONGO_URI, {
 
 const defaultValue = ""
 
-const io = require('socket.io')(3001, {
+const io = require('socket.io')(process.env.PORT, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: "https://real-time-document-collaborator.netlify.app",
         methods: ['GET', 'POST']
     }
 });
